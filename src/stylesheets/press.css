@@ -1,0 +1,52 @@
+.container2 {
+    height: fit-content;
+    width: auto;
+    background-color: #F2F4F8;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+.press {
+    font-size: 3.5rem;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.poopoo {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.card1 {
+    height: auto;
+    width: fit-content;
+    padding: 8px 15px;
+    background-color: #E0E4EC;
+    margin: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+.card2 {
+    height: auto;
+    width: fit-content;
+    padding: 8px 15px;
+    background-color: #E0E4EC;
+    margin: 10px;
+    display: flex;
+    border-radius: 15px;
+}
+.forb {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.rev {
+    font-weight: 600;
+}
+.tt {
+    font-size: 0.9rem;
+    color: #a1a3a5;
+}
+.goo {
+    width: 280px;
+    height: 180px;
+    margin-left: 1.5rem;
+}

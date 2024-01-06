@@ -1,0 +1,65 @@
+.container {
+    background-color: #E0E4EC;
+    height: max-content;
+    padding-bottom: 3rem;
+}
+.flex1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 17rem;
+
+}
+.badilist {
+    position: relative;
+    margin-left: -8rem;
+}
+.logo {
+    width: 141px;
+    height: 41px;
+    padding-bottom: 13px;
+}
+.txt {
+    width: 60%;
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+.icons a{
+    display: inline;
+    padding-right: 30px;
+    font-size: 1.5rem;
+}
+.lii {
+    margin-left: 39px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.list li{
+    list-style-type: "-";
+    cursor: pointer;
+}
+.list li:hover {
+    color: orange;
+}
+.lamba {
+    color: #8e9097;
+    padding: 4rem;
+    font-size: small;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.bye {
+    display: flex;
+    justify-content: space-between;
+}
+.copy {
+    margin-left: 12rem;
+}
+.aakhri {
+    display: flex;
+    margin-right: 12rem;
+}
+.khatam {
+    font-weight: bolder;
+    padding-left: 1.5rem;
+}

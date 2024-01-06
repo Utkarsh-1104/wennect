@@ -1,0 +1,93 @@
+.container6 {
+    background-color: #F2F4F8;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 16rem;
+}
+.row1 {
+    margin-left: 3rem;
+}
+.people1 {
+    height: 8.5rem;
+    width: 9rem;
+    margin-left: 0.8rem;
+    border-radius: 6px;
+}
+.people2 {
+    height: 8.5rem;
+    width: 9rem;
+    position: relative;
+    z-index: 1;
+    margin-left: -28px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+.moveUp {
+    height: 8.5rem;
+    width: 9rem;
+    position: relative;
+    z-index: 1;
+    margin-left: -28px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    animation: getUp 1s;
+}
+@keyframes getUp {
+    0% {
+        transform: scaleY(1);
+    }
+    100% {
+        transform: scaleY(1.2);
+    }
+}
+.moveDown {
+    height: 8.5rem;
+    width: 9rem;
+    position: relative;
+    z-index: 1;
+    margin-left: -28px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    animation: getDown 1s;
+}
+@keyframes getDown {
+    0% {
+        transform: scaleY(1.2);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+.people {
+    height: 8.5rem;
+    width: 7.5rem;
+    border-radius: 6px;
+}
+.people3 {
+    height: 8.5rem;
+    width: 7.5rem;
+    margin-right: 0.6rem;
+    margin-left: -1.8rem;
+    border-radius: 6px;
+}
+.logos {
+    display: flex;
+}
+.leftSide {
+    margin-left: auto;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+.upTxt {
+    text-align: end;
+}
+.fuj {
+    width: 5rem;
+}
+.hken {
+    width: 7rem;
+}
+img {
+    margin-right: 1.3rem;
+}

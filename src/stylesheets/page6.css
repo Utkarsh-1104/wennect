@@ -1,0 +1,105 @@
+.container5 {
+    overflow: hidden;
+    position: relative;
+}
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+.upper {
+    display: flex;
+    justify-content: center;
+    animation-name: upper1;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes upper1 {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-30px);
+    }
+}
+.down {
+    display: flex;
+    justify-content: center;
+    animation-name: down1;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes down1 {
+    0% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+.own {
+    height: fit-content;
+    width: min-content;
+    background-color: white;
+    padding: 20px 40px;
+    text-align: left;
+    margin-right: 1.2rem;
+}
+.ora {
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #FFCFCB;
+    padding: 10px 60px 10px 15px;
+    color: #FF592C;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.ora1 {
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #FFCFCB;
+    padding: 10px 60px 10px 15px;
+    color: #FF592C;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.ssds {
+    margin: 5rem 0;
+
+}
+.orake {
+    font-size: 1rem;
+    color: #a1a3a5;
+}
+.develop {
+    height: fit-content;
+    width: min-content;
+    background-color: white;
+    padding: 20px 40px;
+}
+.hir {
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #d9d5ec;
+    padding: 10px 15px 10px 60px;
+    color: #4F28F9;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.hir1 {
+    width: max-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #d9d5ec;
+    padding: 10px 15px 10px 60px;
+    color: #4F28F9;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.hirke {
+    font-size: 1rem;
+    text-align: end;
+    color: #a1a3a5;
+}
